@@ -1,10 +1,8 @@
 public class LeetMain {
     public static void main(String[] args) {
-        int[] arr = new int[]{3, 1, 2, 4, 5, 7, 8, 3};
-        RmElem re = new RmElem();
-        re.removeElement(arr, 3);
-
-
-
+        int[] arr = new int[]{1, 1, 4, 2, 1, 3};
+        HeightCheck hc = new HeightCheck();
+        int ab = hc.heightChecker(arr);
+        System.out.println(ab);
     }
 }
