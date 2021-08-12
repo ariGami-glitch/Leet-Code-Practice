@@ -4,5 +4,9 @@ public class LeetMain {
         HeightCheck hc = new HeightCheck();
         int ab = hc.heightChecker(arr);
         System.out.println(ab);
+
+        ThirdMax tm = new ThirdMax();
+        ab = tm.thirdMax(arr);
+        System.out.println(ab);
     }
 }
